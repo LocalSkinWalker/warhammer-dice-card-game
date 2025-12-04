@@ -14,7 +14,10 @@ def roll_and_count(num_dice, dice_sides, threshold):
 units = {
     "Swordsmen": (6, 6), #x je broj kocika a y broj strana, !!!DEFINISANO U LINIJI 33!!!
     "Greatswords": (8, 6),
-    "Reiksguard \n Knights": (14, 6)
+    "Reiksguard \n Knights": (14, 6),
+    "Norsca Warriors": (6, 6),
+    "Chaos Warriors": (8, 6),
+    "Chaos \n Knights": (14, 6)
 }
 #WRITEN BY AI! 19-23
 def select_player(player):
@@ -60,7 +63,10 @@ window.iconphoto(True, icon)
 icons = {
     "Swordsmen": tk.PhotoImage(file='swordsmen icon.png'),
     "Greatswords": tk.PhotoImage(file='greatswords icon.png'),
-    "Reiksguard \n Knights": tk.PhotoImage(file='reiksguard knights icon.png')
+    "Reiksguard \n Knights": tk.PhotoImage(file='reiksguard knights icon.png'),
+    "Norsca Warriors": tk.PhotoImage(file='norsca warrior icon.png'),
+    "Chaos Warriors": tk.PhotoImage(file='chaos warriror icon.png'),
+    "Chaos \n Knights": tk.PhotoImage(file='chaos knight icon.png')
 }
 
 result_text = tk.StringVar()
